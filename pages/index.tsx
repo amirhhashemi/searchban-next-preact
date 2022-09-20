@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function IndexPage() {
   return (
-    <div>
+    <div className="bg-sky-300">
       Hello World.
       <ul>
         <li>
