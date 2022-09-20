@@ -1,9 +1,9 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function IndexPage() {
   return (
     <div>
-      Hello World.{' '}
+      Hello World.
       <ul>
         <li>
           <Link href="/about">
@@ -22,5 +22,5 @@ export default function IndexPage() {
         </li>
       </ul>
     </div>
-  )
+  );
 }
