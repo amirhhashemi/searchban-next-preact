@@ -766,3 +766,9 @@ export default function IndexPage() {
     </div>
   );
 }
+
+export function getStaticProps() {
+  return {
+    props: { framework: "preact" },
+  };
+}
